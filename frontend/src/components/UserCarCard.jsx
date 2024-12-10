@@ -102,7 +102,10 @@ const UserCarCard = ({
       </div>
 
       <div className="btns">
-        <button onClick={(e) => {navigate("/delivered")}} className="contact" >Contact Dealer </button>
+        <button type="button" onClick={(e)=>{
+          navigate('/cart')
+        }}>add to cart</button>
+        <button onClick={(e) => {navigate("/delivered")}} className="contact" >Contact Dealer</button>
       </div>
 
 
