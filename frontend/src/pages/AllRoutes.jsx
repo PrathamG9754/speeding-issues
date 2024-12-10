@@ -11,7 +11,7 @@ import Register from './Register'
 import AddCar from './AddCar'
 import PrivateRoutes from '../components/PrivateRoutes'
 import CongratulationsPage from './CongratulationsPage'
-
+import Cart from './Cart'
 const AllRoutes = () => {
 
   return (
@@ -26,6 +26,7 @@ const AllRoutes = () => {
         <DealersPage/>
         </PrivateRoutes>
         } />
+        <Route path='/add-cart' element={<Cart/>} />
         <Route path='/delivered' element={<CongratulationsPage/>}></Route>
         <Route path='/users-car' element={<UsersPage/>} />
         <Route path='/register' element={<Register/>} />

@@ -45,7 +45,8 @@ const Navbar = () => {
         </div>
 
         <div className="links">
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"}>HOME</Link>
+          <Link to={"/add-cart"}>Cart</Link>
           <Link to={"/users-car"}>Cars</Link>
           <Link to={"/about"}>About</Link>
           <Link to={"/contact"}>Contact</Link>
